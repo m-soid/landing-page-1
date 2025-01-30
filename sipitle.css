@@ -1,0 +1,386 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), 
+    rgba(5, 4, 46, 0.7)), url(images/back2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 920px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.hero p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+.hero .buttons {
+    display: flex;
+    gap: 20px;
+}
+.hero .buttons a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.hero .buttons .learn-more {
+    background-color: darkblue;
+}
+.hero .buttons .visit-courses {
+    background-color: #f39c12;
+}
+.features, .courses {
+    padding: 50px 100px;
+    text-align: center;
+}
+.features h2, .courses h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.features p, .courses p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+}
+.features .feature-list, .courses .course-list {
+    display: flex;
+    justify-content: space-between;
+}
+.features .feature-item, .courses .course-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: left;
+}
+.features .feature-item i, .courses .course-item i {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+.features .feature-item h3, .courses .course-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.features .feature-item p, .courses .course-item p {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+.courses .course-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.courses .course-item .course-info {
+    padding: 10px 0;
+}
+.courses .course-item .course-info p {
+    margin: 5px 0;
+}
+.courses .course-item .course-info .price {
+    font-size: 18px;
+    color: #e74c3c;
+}
+
+.container{
+    width: 1600px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.courses .course-info i{
+    color: gold;
+}
+
+.disuruhbulita .pipitures{
+    padding-top: 100px;
+}
+
+.disuruhbulita .cocorus{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.disuruhbulita .pipitures h2{
+    font-size: 50px;
+}
+
+.disuruhbulita .cocorus h2{
+    font-size: 50px;
+}
+
+.hero .buttons .lemor a:hover{
+    color: darkblue;
+    background-color: white;
+}
+
+.hero .buttons .picus a:hover{
+    color: #f39c12;
+    background-color: white;
+}
+
+.regist{
+    display: flex;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), 
+    rgba(5, 4, 46, 0.7)), url(images/signup.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-left: 100px;
+    line-height: 2px;
+    font-size: x-large;
+    justify-content: space-between;
+}
+
+.regist p {
+    color: white;
+}
+
+.regist b{
+    color: white;
+}
+
+.regigis{
+    padding-top: 80px;
+    margin-bottom: -100px;
+}
+
+.waktu{
+    display: flex;
+    padding-top: 150px;
+    line-height: 35px;
+}
+
+.waktu div{
+    background-color: rgba(206, 204, 204, 0.452);
+    margin: 10px;
+    padding: 10px;
+    padding-right : 40px;
+    padding-left : 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.form
+{
+	background: #fff;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    margin-right: 200px;
+    margin-top: -10px;
+    height: 400px;
+}
+
+.form input
+{
+	margin: 15px 0;
+	padding: 15px 10px;
+	border: 1px solid rgb(84, 40, 241);
+	outline: none;
+}
+
+.form input::placeholder
+{
+	color: #413c3c;
+	font-weight: 500;
+	font-size: 0.9rem;
+}
+
+.form .btn
+{
+	margin-top: 20px;
+}
+
+.form a.yellow
+{
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 13px 35px;
+	background-color: #fff;
+	font-weight: 600;
+	border-radius: 5px;
+	color: #fff;
+	background: #fdc938;
+	transition: 0.3s ease;
+}
+
+.form a.yellow:hover
+{
+	color: rgb(21, 21, 100);
+	background: #fff;
+}
+
+.kakekcoruss{
+    justify-items: center;
+
+}
+
+.bapakcoruss1{
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+
+.bapakcoruss2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses{
+    justify-items: center;
+}
+
+.expert-box{
+    display: flex;
+    justify-items: normal;
+}
+
+.esper{
+    justify-items: center;
+}
+
+.expert-box .profile{
+    padding: 150px;
+    background-color:#fafaf1;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.expert-box .profile h6{
+    font-size: 20px;
+    margin-bottom: -10px;
+    margin-top: 5px;
+}
+
+.expert-box .profile img{
+    margin-top: -100px;
+    padding-left: 1px;
+}
+
+.expert-box .profile .pro-links{
+    margin-bottom: -100px;
+    font-size: 20px;
+}
+
+.expert-box .popopil{
+    margin-left: -70px;
+    margin-right: -70px;
+}
+
+.esper h1{
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.esper .repenis p{
+    font-size: 20px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+
+.esper{
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+.footer{
+    display: flex;
+    background-color: #101832;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-top: 200px;
+    padding: 150px;
+}
+.isiemail{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.isiemail input{
+    padding-left: 10px;
+    margin: 26px;
+}
+.teks5 p{
+    color: #979797;
+}
+.teks5 .subscribe{
+    background-color: #F39C12;
+    padding: 4%;
+    margin-left: -15px;
+}
+.footer h4{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    /* padding-bottom: 30px; */
+}
+.footer li{
+    list-style: none;
+    color: #979797;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.footer ol{
+    padding-left: 0px;
+}
+
+.headd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+
+}
+header img {
+    height: 50px;
+}
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
